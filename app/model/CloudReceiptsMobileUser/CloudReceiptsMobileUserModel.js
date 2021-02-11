@@ -1,0 +1,43 @@
+﻿Ext.define('ianMizi.model.CloudReceiptsMobileUser.CloudReceiptsMobileUserModel', {
+    extend: 'Ext.data.Model',
+    config: {
+        fields: [
+            'ID',
+                 'CR_AccountNo',
+                 'CR_MykadNo',
+                 'CR_AccountName',
+                 'CR_UseName',
+                 'CR_Password',
+                 'CR_Email',
+                 'CR_PhoneNumber',
+                 'CR_Photo',
+                 'CR_RegisterDate',
+                 'CR_Status',
+                 'CR_LastLoginDate',
+                 'CR_LoginOS',
+                 'CR_LoginIP',
+                 'CR_IsLogOut',
+                 'CR_PhoneModel',
+                 'CR_PhoneImeiNo',
+                 'CR_LoginCount',
+                 'CR_IsAutoLogin',
+                 'CR_IsRememberPwd',
+                 'CR_PhoneUniqueID',
+                 'CR_IsUserVerified',
+                 'CR_VerifyString',
+                 'CR_VeriyDate',
+                  'CR_PhonePlatform',
+                 'CR_PhoneVersion',
+                 'CR_PhoneManufacturer',
+                 'CR_PhoneIsVirtual',
+                 'CR_PhoneSerial',
+                 'CR_RawPhoneInfo',
+                 'CR_PlayerID',
+                 'CR_InitalRegisterPhoneInfo',
+                 'CR_ModifiedDate',
+                 'CR_RowActive',
+                 'CR_Version',
+                 'DayLeft'
+        ]
+    }
+});

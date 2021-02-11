@@ -1,0 +1,19 @@
+{
+  "devDependencies": {
+    "cordova-plugin-whitelist": "1"
+  },
+  "cordova": {
+    "plugins": {
+      "cordova-plugin-whitelist": {},
+      "onesignal-cordova-plugin": {},
+      "cordova-plugin-qrscanner": {}
+    },
+    "platforms": [
+      "android"
+    ]
+  },
+  "dependencies": {
+    "cordova-android": "^8.1.0",
+    "cordova-plugin-qrscanner": "^3.0.1"
+  }
+}
